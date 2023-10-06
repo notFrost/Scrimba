@@ -12,7 +12,7 @@ export default function Card({
   return (
     <div className="card">
       <div className="img--container">
-        <img src={img} className="card--photo" alt={img}></img>
+        <img src={`../images/${img}`} className="card--photo" alt={img}></img>
       </div>
       <div className="card--stats">
         <img src={starImg} className="card--star"></img>

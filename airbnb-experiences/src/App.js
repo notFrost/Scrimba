@@ -7,6 +7,7 @@ import Card from "./components/Card";
 import experience1 from "./images/experience1.png";
 import experience2 from "./images/experience2.jpeg";
 import experience3 from "./images/experience3.jpeg";
+//img = experienceX if not
 
 import "./style.css";
 
@@ -17,28 +18,28 @@ export default function App() {
       <Hero />
       <section className="carousel">
         <Card
-          img={experience1}
+          img="experience1.png"
           stars="5.0"
-          review_quantity="6"
+          review_quantity={6}
           location="USA"
           title="Life lessons with Katie Zaferes"
-          price="136"
+          price={136}
         />
         <Card
-          img={experience2}
+          img="experience2.jpeg"
           stars="5.0"
-          review_quantity="30"
+          review_quantity={30}
           location="USA"
           title="Learn wedding photography"
-          price="125"
+          price={125}
         />
         <Card
-          img={experience3}
+          img="experience3.jpeg"
           stars="4.8"
-          review_quantity="2"
+          review_quantity={2}
           location="USA"
           title="Group Mountain Biking"
-          price="50"
+          price={50}
         />
       </section>
     </div>
