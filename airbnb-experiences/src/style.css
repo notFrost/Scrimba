@@ -1,0 +1,99 @@
+/*Global*/
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: 30px 36px;
+}
+
+/*Navbar*/
+nav {
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  padding: 22px 30px;
+}
+
+/*Hero*/
+.hero--photo {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.hero--header {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.hero--text {
+  margin-top: 0;
+  color: #222;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-right: 194px;
+}
+
+/*Carousel*/
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+/*Card*/
+.card {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+}
+
+.img--container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card--photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card--star {
+  height: 100%;
+  width: auto;
+  margin-right: 2px;
+}
+
+.card {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card--title {
+  margin: 8px 0;
+}
+
+.card--price {
+  margin: 0;
+}
+
+.gray {
+  color: #918e9b;
+}
